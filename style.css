@@ -1,0 +1,43 @@
+.border{
+    background: url('9.webp');
+    border:0.6px solid black;
+    border-radius:800px;
+    transition:0.8s;
+    width:500px;
+    height:200px;
+}
+.click{
+    display:inline-block;
+    transform: translate(360px,60px);
+    
+}
+.ball img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    
+}
+.ball{
+   
+    background-color:rgb(160, 156, 156);
+    width:200px;
+    height:200px;
+    border:0.5px solid black;
+    border-radius: 200px;
+    transition: 0.5s;
+    transform: translate(0px,-81px);
+}
+.ball:active{
+    transform: translateX(300px);
+    background-color: rgb(36, 35, 35);
+    border:0.5px solid white;
+    transform: translate(300px,-81px);
+
+}
+.border:active{
+    background:url('starry-night-sky-cartoon-background-vector-27202530.jpg');
+    background-size: cover;
+    
+    background-position-x: -70px;
+    background-position-y: -30px;
+} 
